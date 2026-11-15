@@ -72,7 +72,7 @@ function App() {
       </nav>
 
       <section className="hero-content" id="home">
-        {/* We'll build the introduction and portrait here next */}
+        {/**********************introduction********************************/}
 
         
         <div className="hero-layout">
@@ -130,7 +130,7 @@ function App() {
           </div>
 
           <div className="hero-image">
-            <img src="/images/profile pic.png" alt="Metieka Solarie" />
+            <img src={`${import.meta.env.BASE_URL}images/profile%20pic.png`} alt="Metieka Solarie" />
           </div>
         </div>
 
@@ -160,7 +160,7 @@ function App() {
           </div>
 
           <div className="about-portrait">
-            <img src="/images/profile pic.png" alt="Metieka Solarie" />
+            <img src={`${import.meta.env.BASE_URL}images/profile%20pic.png`} alt="Metieka Solarie" />
           </div>
         </div>
 
